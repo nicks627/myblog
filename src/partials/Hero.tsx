@@ -10,26 +10,18 @@ const Hero = () => (
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          こんにちは <GradientText>Taiyaki</GradientText> 🐟です
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          大学院生です。研究では、スマート農業における画像認識モデルの軽量化に関する研究を行っています。
         </>
       }
       avatar={
         <img
           className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          src="/assets/images/taiyaki.png"
           alt="Avatar image"
           loading="lazy"
         />
@@ -54,12 +46,12 @@ const Hero = () => (
               alt="Linkedin icon"
             />
           </a>
-          <a href="/">
+          {/* <a href="/">
             <HeroSocial
               src="/assets/images/youtube-icon.png"
               alt="Youtube icon"
             />
-          </a>
+          </a> */}
         </>
       }
     />
