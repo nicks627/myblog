@@ -11,16 +11,16 @@ import { sortByDate } from '@/utils/Posts';
 
 const allPosts = await Astro.glob<IFrontmatter>('./posts/*.md');
 const sortedPosts = sortByDate(allPosts);
-// const lastThreePosts = sortedPosts.slice(0, 3);
-const Posts = sortedPosts
+const lastThreePosts = sortedPosts.slice(0, 3);
+// const Posts = sortedPosts
 
 const { title } = AppConfig;
 const { description } = AppConfig;
 ---
 
 <Base head={{ title, description }}>
-  <!-- <RecentPosts postList={lastThreePosts} /> -->
-  <RecentPosts postList={Posts} />
+  <RecentPosts postList={lastThreePosts} />
+  <!-- <RecentPosts postList={Posts} /> -->
   <!-- <ProjectList /> -->
   <!-- <CTA /> -->
   <Hero />
