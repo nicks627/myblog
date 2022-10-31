@@ -18,14 +18,15 @@ const Hero = () => (
           大学院生です。研究では、スマート農業における画像認識モデルの軽量化に関する研究を行っています。
         </>
       }
-      avatar={
-        <img
-          className="h-80 w-64"
-          src="/assets/images/taiyaki.png"
-          alt="Avatar image"
-          loading="lazy"
-        />
-      }
+      avatar
+      // avatar={
+      //   // <img
+      //   //   className="h-80 w-64"
+      //   //   src="/assets/images/taiyaki.png"
+      //   //   alt="Avatar image"
+      //   //   loading="lazy"
+      //   // />
+      // }
       socialButtons={
         <>
           <a href="/">
