@@ -3,6 +3,6 @@ export const AppConfig = {
   title: 'けんけんっぱ',
   description: 'Boilerplate built with Astro using React and Tailwind CSS',
   author: 'Emma',
-  locale_region: 'en-us',
+  locale_region: 'ja-jp',
   locale: 'ja',
 };

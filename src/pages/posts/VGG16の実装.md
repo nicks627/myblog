@@ -3,7 +3,7 @@ layout: '@/templates/BasePost.astro'
 title: VGG16の実装
 description: VGG16のスクラッチ実装に関するまとめ
 pubDate: 2022-10-31T00:58:00Z
-imgSrc: '/assets/images/image-post.jpeg'
+imgSrc: '/assets/images/image-post.jpg'
 imgAlt: 'Image post'
 ---
 
