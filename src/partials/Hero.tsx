@@ -1,6 +1,7 @@
 import {
   GradientText,
   HeroAvatar,
+  HeroSocial,
   Section,
 } from 'astro-boilerplate-components';
 
@@ -26,35 +27,23 @@ const Hero = () => (
       //   //   loading="lazy"
       //   // />
       // }
-      socialButtons
-      // socialButtons={
-      //   <>
-      //     <a href="/">
-      //       <HeroSocial
-      //         src="/assets/images/twitter-icon.png"
-      //         alt="Twitter icon"
-      //       />
-      //     </a>
-      //     <a href="/">
-      //       <HeroSocial
-      //         src="/assets/images/facebook-icon.png"
-      //         alt="Facebook icon"
-      //       />
-      //     </a>
-      //     <a href="/">
-      //       <HeroSocial
-      //         src="/assets/images/linkedin-icon.png"
-      //         alt="Linkedin icon"
-      //       />
-      //     </a>
-      //     {/* <a href="/">
-      //       <HeroSocial
-      //         src="/assets/images/youtube-icon.png"
-      //         alt="Youtube icon"
-      //       />
-      //     </a> */}
-      //   </>
-      // }
+
+      socialButtons={
+        <>
+          <a href="https://twitter.com/home">
+            <HeroSocial
+              src="/assets/images/twitter-icon.png"
+              alt="Twitter icon"
+            />
+          </a>
+          <a href="https://github.com/">
+            <HeroSocial
+              src="/assets/images/GitHub-Mark-Light-32px.png"
+              alt="Github icon"
+            />
+          </a>
+        </>
+      }
     />
   </Section>
 );
